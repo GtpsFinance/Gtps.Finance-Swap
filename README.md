@@ -1,4 +1,4 @@
-# CoolSwap template
+# GtpsFinance template
 
 ### Rinkeby
 
