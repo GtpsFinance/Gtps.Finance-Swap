@@ -91,6 +91,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.7.0",
     "@uniswap/default-token-list": "2.0.0",
     "dotenv": "^10.0.0",
     "web3-utils": "^1.5.3"
@@ -112,5 +113,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "- Factory: 0xb350F3e673a93C3afA6AFcd10846beA47c6Feb97\r - Router: 0xc57a95ad7d9726b75bf4a1e541150bf1b0d49c7a\r - Pair hash: 0x64bd37f535cec29b656c6f3ba3110b14ec36cccf7b15d67d7d3082d3f7ac2115",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GtpsFinance/godsplanswap-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/GtpsFinance/godsplanswap-main/issues"
+  },
+  "homepage": "https://github.com/GtpsFinance/godsplanswap-main#readme"
 }
