@@ -1,4 +1,4 @@
-# CoolSwap template
+# Godsplanswap template
 
 ### Rinkeby
 
