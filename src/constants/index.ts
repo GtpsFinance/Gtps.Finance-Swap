@@ -9,8 +9,8 @@ import {
 } from '../connectors';
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
-export const FACTORY_ADDRESS = '0xb350F3e673a93C3afA6AFcd10846beA47c6Feb97';
-export const ROUTER_ADDRESS = '0xc57a95ad7d9726b75bf4a1e541150bf1b0d49c7a';
+export const FACTORY_ADDRESS = '0x6eeB4A7c1Cea697ee7BAF87de3D556bD200691eE';
+export const ROUTER_ADDRESS = '0x2d07585d5f3d79fdf7bb2fc6a6767027a787a8b8';
 
 export const LP_TOKEN_NAME = 'Godsplanswap-LP';
 export const LP_TOKEN_SYMBOL = 'Godsplan-LP';
