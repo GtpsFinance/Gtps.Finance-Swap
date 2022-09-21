@@ -12,8 +12,8 @@ export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 export const FACTORY_ADDRESS = '0x6eeB4A7c1Cea697ee7BAF87de3D556bD200691eE';
 export const ROUTER_ADDRESS = '0x2d07585d5f3d79fdf7bb2fc6a6767027a787a8b8';
 
-export const LP_TOKEN_NAME = 'Godsplanswap-LP';
-export const LP_TOKEN_SYMBOL = 'Godsplan-LP';
+export const LP_TOKEN_NAME = 'Uniswap V2';
+export const LP_TOKEN_SYMBOL = 'Uni-V2';
 
 // a list of tokens by chain
 type ChainTokenList = {
