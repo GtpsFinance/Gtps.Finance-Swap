@@ -1,1 +1,40 @@
-<svg fill="#fff" height="512pt" viewBox="-32 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m235.605469 203.519531v25.742188c0 8.175781 1.632812 15.035156 4.855469 20.378906 4.445312 7.375 11.742187 11.601563 20.027343 11.601563 8.117188 0 16.183594-3.953126 23.972657-11.742188l85.023437-85.023438c18.667969-18.667968 18.667969-49.042968 0-67.710937l-85.023437-85.023437c-7.789063-7.792969-15.855469-11.742188-23.972657-11.742188-12.386719 0-24.882812 9.890625-24.882812 31.980469v23.378906c-120.710938 7.128906-220.640625 99.765625-235.492188 221.050781-.832031 6.773438 3.019531 13.257813 9.367188 15.769532 1.796875.710937 3.667969 1.054687 5.515625 1.054687 4.679687 0 9.21875-2.191406 12.109375-6.140625 39.835937-54.429688 103.796875-86.925781 171.09375-86.925781 12.46875 0 25.007812 1.125 37.40625 3.351562zm0 0"/><path d="m438.253906 219.820312c-6.347656-2.515624-13.589844-.421874-17.625 5.089844-39.832031 54.425782-103.792968 86.921875-171.089844 86.921875-12.46875 0-25.007812-1.125-37.40625-3.351562v-25.742188c0-22.089843-12.5-31.980469-24.882812-31.980469-8.117188 0-16.183594 3.953126-23.976562 11.746094l-85.023438 85.019532c-18.664062 18.667968-18.664062 49.042968.003906 67.714843l85.019532 85.019531c7.792968 7.792969 15.859374 11.742188 23.976562 11.742188 12.382812 0 24.882812-9.890625 24.882812-31.980469v-23.378906c120.714844-7.128906 220.640626-99.765625 235.492188-221.046875.832031-6.777344-3.019531-13.261719-9.371094-15.773438zm0 0"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="598" height="682" viewBox="0 0 598 682" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(3.67 0 0 3.67 312.75 291.79)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 8; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  points="-19.9,34.5 -39.8,0 -19.9,-34.5 19.9,-34.5 39.8,0 19.9,34.5 " />
+</g>
+<g transform="matrix(2.54 0 0 2.58 313.12 403.7)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 8; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(244,244,233); fill-rule: nonzero; opacity: 1;"  points="0,-50 35,0 0,50 -35,0 " />
+</g>
+<g transform="matrix(3 0 0 3 308.4 279.42)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 8; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(244,244,233); fill-rule: nonzero; opacity: 1;"  points="-19.9,34.5 -39.8,0 -19.9,-34.5 19.9,-34.5 39.8,0 19.9,34.5 " />
+</g>
+<g transform="matrix(2.12 0 0 2.12 312.86 288.3)"  >
+<polygon style="stroke: rgb(0,0,0); stroke-width: 8; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  points="-39.8,27.5 -39.8,-7.5 -19.9,-27.5 19.9,-27.5 39.8,-7.5 39.8,27.5 " />
+</g>
+<g transform="matrix(1 0 0 1 453.5 98.23)" style=""  >
+		<text xml:space="preserve" font-family="'Open Sans', sans-serif" font-size="18" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(247,242,242); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-216" y="5.97" style="font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif; font-size: 19px; font-weight: bold; ">GTPS.FINANCE</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 295.5 326.5)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x1="-22.5" y1="-90.5" x2="22.5" y2="90.5" />
+</g>
+<g transform="matrix(1 0 0 1 336 327)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x1="17" y1="-92" x2="-17" y2="92" />
+</g>
+<g transform="matrix(1 0 0 1 315.5 320)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x1="-1.5" y1="-83" x2="1.5" y2="83" />
+</g>
+<g transform="matrix(1 0 0 1 354.5 342.5)"  >
+<line style="stroke: rgb(239,234,234); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x1="36.5" y1="-67.5" x2="-36.5" y2="67.5" />
+</g>
+<g transform="matrix(1 0 0 1 277.5 341.5)"  >
+<line style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x1="-40.5" y1="-66.5" x2="40.5" y2="66.5" />
+</g>
+<g transform="matrix(1 0 0 1 287 168)"  >
+<path style="stroke: rgb(243,238,238); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-287, -168)" d="M 286.999 168 L 287.001 168" stroke-linecap="round" />
+</g>
+</svg>
