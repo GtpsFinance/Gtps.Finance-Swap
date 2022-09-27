@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { transparentize } from 'polished';
+// @ts-ignore import { transparentize } from 'polished';
 import styled, {
   ThemeProvider as StyledComponentsThemeProvider,
   createGlobalStyle,
@@ -31,39 +31,39 @@ const mediaWidthTemplates: { [width in keyof typeof MEDIA_WIDTHS]: typeof css } 
   {}
 ) as any;
 
-const blue = '#0D0BB1';
+const white = '#FFFFFF';
 const black = '#000000';
 
 export function colors(darkMode: boolean): Colors {
   return {
     // base
-    blue,
+    white,
     black,
 
     // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#FFFFFF' : '#000000',
-    text3: darkMode ? '#FFFFFF' : '#000000',
-    text4: darkMode ? '#FFFFFF' : '#FFFFFF',
-    text5: darkMode ? '#000000' : '#FFFFFF',
+    text1: darkMode ? '#FFFFFF' : '#39c528',
+    text2: darkMode ? '#C3C5CB' : '#565A69',
+    text3: darkMode ? '#6C7284' : '#888D9B',
+    text4: darkMode ? '#565A69' : '#C3C5CB',
+    text5: darkMode ? '#2C2F36' : '#EDEEF2',
 
     // backgrounds / greys
-    bg1: darkMode ? '#000000' : '#0D0BB1',
-    bg2: darkMode ? '#0D0BB1' : '#0D0BB1',
-    bg3: darkMode ? '#000000' : '#0D0BB1',
-    bg4: darkMode ? '#000000' : '#FFFFFF',
-    bg5: darkMode ? '#FFFFFF' : '#FFFFFF',
+    bg1: darkMode ? '#1d1f24' : '#fafafa',
+    bg2: darkMode ? '#0D0BB1' : '#389fe0',
+    bg3: darkMode ? '#3a3d47' : '#0D0BB1',
+    bg4: darkMode ? '#4c4f5c' : '#CED0D9',
+    bg5: darkMode ? '#6C7284' : '#0D0BB1',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(13,11,177,0.6)',
+    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(251,17,142,0.6)',
 
     //primary colors
-    primary1: '#0D0BB1',
-    primary2: '#0D0BB1',
-    primary3: '#0D0BB1',
-    primary4: '#0D0BB1',
-    primary5: '#0D0BB1',
+    primary1: '#2792d6',
+    primary2: '#3099db',
+    primary3: '#389fe0',
+    primary4: '#54afe8',
+    primary5: '#5fb3e8',
 
     // color text
     primaryText1: darkMode ? '#fff' : '#000',
@@ -95,7 +95,7 @@ export function theme(darkMode: boolean): DefaultTheme {
     },
 
     //shadows
-    shadow1: darkMode ? '#000' : '#0D0BB1',
+    shadow1: darkMode ? '#000' : '#2F80ED',
 
     // media queries
     mediaWidth: mediaWidthTemplates,
@@ -210,10 +210,6 @@ body {
   min-height: 100vh;
   background-position: 0 -30vh;
   background-repeat: no-repeat;
-  background-image: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${transparentize(0.8, theme.primary1)} 0%, ${transparentize(
-      1,
-      theme.bg1
-    )} 100%)`};
+  background-image: radial-gradient(50% 50% at 50% 50%,rgb(5 8 10 / 96%) 0%,rgba(250,250,250,0) 100%);
 }
 `;
