@@ -210,6 +210,6 @@ body {
   min-height: 100vh;
   background-position: 0 -30vh;
   background-repeat: no-repeat;
-  background-image: radial-gradient(50% 50% at 50% 50%,rgb(5 8 10 / 96%) 0%,rgba(250,250,250,0) 100%);
+  background-image: radial-gradient(50% 50% at 50% 50%,rgb(5 8 10 / 96%) 0%,rgba(13,11,177,0) 100%);
 }
 `;
