@@ -36,7 +36,7 @@ const HeaderWrapper = styled.div`
 
 const BodyWrapper = styled.div`
   width: 100%;
-  padding: 3rem 0;
+  padding: 0rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
