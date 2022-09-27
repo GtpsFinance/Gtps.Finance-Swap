@@ -76,12 +76,12 @@ const HeaderRow = styled(RowFixed)`
 const HeaderLinks = styled(Row)`
   width: auto;
   margin: 0 auto;
-  padding: 0.3rem;
+  padding: 2rem;
   justify-content: center;
-  border-radius: 0.8rem;
+  border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
-  background-color: ${({ theme }) => theme.bg1};
+  background-color: rgb(13, 11, 177);
 
   ${({ theme }) => theme.mediaWidth.upToLarge`
     margin: 0;
