@@ -64,7 +64,7 @@ const Web3StatusError = styled(Web3StatusGeneric)`
 `;
 
 const Web3StatusConnect = styled(Web3StatusGeneric)<{ faded?: boolean }>`
-  background-color: rgba(13, 11, 177, 0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   color: rgba(250, 250, 250, 0);
   font-weight: 500;
