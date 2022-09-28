@@ -203,7 +203,7 @@ html {
 
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
-  color: rgba(250, 250, 250, 0);
+  color: ${({ theme }) => theme.text1};
   background-color: rgba(13, 11, 177, 0);
 }
 body {
