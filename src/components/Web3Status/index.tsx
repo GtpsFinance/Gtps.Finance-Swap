@@ -53,7 +53,7 @@ const Web3StatusGeneric = styled(ButtonSecondary)`
   }
 `;
 const Web3StatusError = styled(Web3StatusGeneric)`
-  background-color: ${({ theme }) => theme.red1};
+  background-color: rgba(250, 250, 250, 0);
   border: 1px solid ${({ theme }) => theme.red1};
   color: ${({ theme }) => theme.white};
   font-weight: 500;
