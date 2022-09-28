@@ -12,7 +12,7 @@ const Base = styled(RebassButton)<{
   borderRadius?: string;
   altDisabledStyle?: boolean;
 }>`
-  padding: ${({ padding }) => (padding ? padding : '8px')};
+  padding: ${({ padding }) => (padding ? padding : '18px')};
   width: ${({ width }) => (width ? width : '100%')};
   font-weight: 500;
   text-align: center;
@@ -30,18 +30,16 @@ const Base = styled(RebassButton)<{
   position: relative;
   z-index: 1;
   transition: 0.25s;
-
   &:disabled {
     cursor: auto;
   }
-
   > * {
     user-select: none;
   }
 `;
 
 export const ButtonPrimary = styled(Base)`
-  background-color: rgb(13 11 177);
+  background-color: ${({ theme }) => theme.primary1};
   color: white;
   &:focus {
     box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.05, theme.primary1)};
@@ -74,7 +72,6 @@ export const ButtonSecondary = styled(Base)`
   font-size: 16px;
   border-radius: 12px;
   padding: ${({ padding }) => (padding ? padding : '10px')};
-
   &:focus {
     box-shadow: 0 0 0 1pt ${({ theme }) => theme.primary4};
     border: 1px solid ${({ theme }) => theme.primary3};
@@ -99,7 +96,6 @@ export const ButtonOutlined = styled(Base)`
   border: 1px solid ${({ theme }) => theme.bg2};
   background-color: transparent;
   color: ${({ theme }) => theme.text1};
-
   &:focus {
     box-shadow: 0 0 0 1px ${({ theme }) => theme.bg4};
   }
@@ -121,7 +117,6 @@ export const ButtonEmpty = styled(Base)`
   display: flex;
   justify-content: center;
   align-items: center;
-
   &:hover {
     text-decoration: none;
   }
@@ -138,7 +133,6 @@ const ButtonConfirmedStyle = styled(Base)`
   background-color: ${({ theme }) => lighten(0.5, theme.green1)};
   color: ${({ theme }) => theme.green1};
   border: 1px solid ${({ theme }) => theme.green1};
-
   &:disabled {
     opacity: 50%;
     cursor: auto;
@@ -148,7 +142,6 @@ const ButtonConfirmedStyle = styled(Base)`
 const ButtonErrorStyle = styled(Base)`
   background-color: ${({ theme }) => theme.red1};
   border: 1px solid ${({ theme }) => theme.red1};
-
   &:focus {
     box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.05, theme.red1)};
     background-color: ${({ theme }) => darken(0.05, theme.red1)};
