@@ -204,7 +204,7 @@ html {
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
-  background-color: rgba(13, 11, 177, 0);
+  background-color: ${({ theme }) => theme.bg2};
 }
 body {
   min-height: 100vh;
