@@ -162,8 +162,8 @@ const activeClassName = 'ACTIVE';
 const StyledNavLink = styled(NavLink).attrs({
   activeClassName,
 })`
-  ${({ theme }) => theme.flexRowNoWrap}
-  align-items: left;
+  ${({ theme }) => theme.flexColumnNoWrap}
+  align-items: center;
   border-radius: 12px;
   outline: none;
   cursor: pointer;
