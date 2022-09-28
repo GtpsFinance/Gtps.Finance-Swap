@@ -27,15 +27,12 @@ const HeaderFrame = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-
   ${({ theme }) => theme.mediaWidth.upToLarge`
     grid-template-columns: 60px 1fr 120px;
   `};
-
   ${({ theme }) => theme.mediaWidth.upToSmall`
     grid-template-columns: 60px 1fr;
   `};
-
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     padding: 0.5rem 1rem;
   `}
@@ -52,7 +49,6 @@ const HeaderElement = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
-
   ${({ theme }) => theme.mediaWidth.upToMedium`
    flex-direction: row-reverse;
     align-items: center;
@@ -67,7 +63,6 @@ const HeaderElementWrap = styled.div`
 const HeaderRow = styled(RowFixed)`
   display: flex;
   align-items: center;
-
   ${({ theme }) => theme.mediaWidth.upToMedium`
     width: 100%;
   `};
@@ -76,18 +71,16 @@ const HeaderRow = styled(RowFixed)`
 const HeaderLinks = styled(Row)`
   width: auto;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.3rem;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 0.8rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
-  background-color: rgb(13, 11, 177);
-
+  background-color: ${({ theme }) => theme.bg1};
   ${({ theme }) => theme.mediaWidth.upToLarge`
     margin: 0;
     margin-right: auto;
   `};
-
   ${({ theme }) => theme.mediaWidth.upToSmall`
     position: fixed;
     bottom: 0;
@@ -111,7 +104,6 @@ const AccountElement = styled.div<{ active: boolean }>`
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
-
   :focus {
     border: 1px solid blue;
   }
@@ -128,7 +120,6 @@ const NetworkCard = styled(LightCard)`
   padding: 8px 12px;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
-
   ${({ theme }) => theme.mediaWidth.upToSmall`
     margin: 0;
     margin-right: 0.5rem;
@@ -183,26 +174,21 @@ const StyledNavLink = styled(NavLink).attrs({
   padding: 0.3rem 0.6rem;
   font-weight: 500;
   transition: 0.3s;
-
   &:not(:last-child) {
     margin-right: 0.16rem;
   }
-
   &.${activeClassName} {
     color: ${({ theme }) => theme.text1};
     background-color: ${({ theme }) => theme.bg3};
   }
-
   :hover,
   :focus {
     color: ${({ theme }) => darken(0.1, theme.text1)};
   }
-
   ${({ theme }) => theme.mediaWidth.upToSmall`
     border-radius: 8px;
     padding: 0.3rem 7%;
     border: 1px solid ${({ theme }) => theme.bg3};
-
     &:not(:last-child) {
       margin-right: 2%;
     }
@@ -224,14 +210,12 @@ export const StyledMenuButton = styled.button`
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px,
     rgba(0, 0, 0, 0.01) 0px 24px 32px;
-
   :hover,
   :focus {
     cursor: pointer;
     outline: none;
     background-color: ${({ theme }) => theme.bg4};
   }
-
   svg {
     margin-top: 2px;
   }
