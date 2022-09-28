@@ -48,11 +48,11 @@ export function colors(darkMode: boolean): Colors {
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
 
     // backgrounds / greys
-    bg1: darkMode ? '#1d1f24' : '#0D0BB1',
+    bg1: darkMode ? '#0D0BB1' : '#0D0BB1',
     bg2: darkMode ? '#0D0BB1' : '#0D0BB1',
-    bg3: darkMode ? '#3a3d47' : '#0D0BB1',
-    bg4: darkMode ? '#4c4f5c' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#0D0BB1',
+    bg3: darkMode ? '#0D0BB1' : '#0D0BB1',
+    bg4: darkMode ? '#0D0BB1' : '#0D0BB1',
+    bg5: darkMode ? '#0D0BB1' : '#0D0BB1',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
