@@ -101,7 +101,7 @@ const StyledBalanceMax = styled.button`
   font-weight: 500;
   cursor: pointer;
   margin-right: 0.5rem;
-  color: rgb(250 250 250);
+  color: rgb(13 11 177);
 
   :hover {
     background-color: ${({ theme }) => theme.primary3};
