@@ -69,7 +69,7 @@ export function colors(darkMode: boolean): Colors {
     primaryText1: darkMode ? '#fff' : '#000',
 
     // secondary colors
-    secondary1: '#3B6A9C',
+    secondary1: '#0D0BB1',
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
     secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 
