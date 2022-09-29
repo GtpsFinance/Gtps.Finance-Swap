@@ -80,7 +80,7 @@ export function colors(darkMode: boolean): Colors {
     green1: '#27AE60',
     yellow1: '#FFE270',
     yellow2: '#F3841E',
-    blue1: '#3B6A9C',
+    blue1: '#fffffC',
   };
 }
 
