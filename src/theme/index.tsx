@@ -189,7 +189,8 @@ a {
   box-sizing: border-box;
 }
 img {
-  border:dotted
+  border:solid
+  color: white
 }
 button {
   user-select: none;
