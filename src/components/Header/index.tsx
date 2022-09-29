@@ -188,7 +188,7 @@ const StyledNavLink = styled(NavLink).attrs({
   ${({ theme }) => theme.mediaWidth.upToSmall`
     border-radius: 8px;
     padding: 0.3rem 7%;
-    border: 1px solid ${({ theme }) => theme.bg3};
+    border: 1px solid rgb(250 250 250);
     &:not(:last-child) {
       margin-right: 2%;
     }
