@@ -188,6 +188,9 @@ a {
 * {
   box-sizing: border-box;
 }
+img {
+  border:dotted
+}
 button {
   user-select: none;
 }
