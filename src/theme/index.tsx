@@ -190,7 +190,6 @@ a {
 }
 img {
   border:solid
-  { color: rgb(250 250 250);
 }
 button {
   user-select: none;
