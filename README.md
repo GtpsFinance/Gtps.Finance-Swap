@@ -1,6 +1,6 @@
 A stunning never-seen-before-design. One to amaze and create curiosity. One to pave way for the next-generation automated market maker frontend Dexes. Built on Ethereum, coming to polygon for fast cheaper transactions as part of Gtps.Finance platform that will link defi to centralized systems. Making our token; Global Transaction Payment Solution GTPS the new single reserve global currency and the official digital currency of the world. Only at Gtps.Finance.
 
-# Godsplanswap Frontend template designed by David Gomadza Gtps.Finance.welcome@gtps.finance
+# Godsplanswap {Gtps.Finance} Frontend template designed by David Gomadza Gtps.Finance.welcome@gtps.finance
 
 
 ETHEREUM
